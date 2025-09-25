@@ -1,0 +1,27 @@
+# --- Python template base ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# --- Virtual env ---
+.venv/
+
+# --- Logs & checkpoints ---
+*.log
+.ipynb_checkpoints/
+
+# --- Project data (don’t commit your local corpus or index) ---
+vectorstore/
+docs/
+!docs/.gitkeep
+
+# --- Editors/OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

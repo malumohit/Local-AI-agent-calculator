@@ -1,0 +1,6 @@
+ollama
+pydantic>=2
+ddgs
+chromadb
+sentence-transformers
+pypdf
