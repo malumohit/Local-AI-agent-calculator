@@ -99,9 +99,16 @@ Use the retrieve tool to answer: What are the main goals of the Mattress Recover
 
 ## Project Structure
 .
+
 ├─ expert_agent.py        # main agent with tool-calling + reflection
+
 ├─ rag.py                 # ingest & retrieve (ChromaDB + sentence-transformers)
+
 ├─ Modelfile              # baked defaults for Ollama model
+
 ├─ requirements.txt
+
 ├─ docs/                  # your local PDFs/TXT/MD (not tracked by default)
+
 └─ vectorstore/           # Chroma persistence (created after ingest)
+
